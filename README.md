@@ -2,13 +2,13 @@
     
     This repository contains a Spring Boot application for managing students and courses. It provides RESTful API endpoints for CRUD operations on student and course entities.
     
-    Project Structure
+Project Structure
     The project is organized into the following packages:
     
     lk.ac.vau.fas.ict.model: Contains entity classes like Student and Course
     lk.ac.vau.fas.ict.controller: Contains REST controllers for handling HTTP requests
     
-    Main Components
+Main Components
     
     Models
     Student: Represents a student with properties like registration number, name, age, course, and GPA
@@ -27,7 +27,7 @@
     Implemented as a generic class that can work with different entity types
     Provides methods for retrieving, adding, updating, and deleting records  
 
-    Getting Started
+Getting Started
     
     Prerequisites
     Java Development Kit (JDK) 8 or later
