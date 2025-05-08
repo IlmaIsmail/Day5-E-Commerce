@@ -39,3 +39,23 @@ Getting Started
         Navigate to the project directory
         Run mvn spring-boot:run or ./gradlew bootRun depending on your build tool
         Access the API at http://localhost:8080
+
+API Endpoints
+   
+    Student Endpoints
+    1. GET /app/msg: Returns a message
+    2. GET /app/student1: Returns a the details of student1  
+    3. GET /app/students: Returns all the students
+    4. GET /app/students/{regNo}: Returns a specific student by registration number
+    5. GET /app/age/{age}: Returns the age
+    6. POST /app/add: Adds a new student
+    7. DELETE /app/students/{id}: Deletes a student by registration number
+    8. PUT /app/students/{id}: Updates a student by registration number
+
+    Course Endpoints
+    1. GET /course/: Returns all courses
+    2. POST /course/add/{id}: Adds a new course
+    3. DELETE /course/delete/{id}: Deletes a course by code
+    4. PUT /course/update/{id}: Updates a course by code
+
+
